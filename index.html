@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./styles/tailwind.init.css" />
   </head>
   <body class="noto-serif-font">
-    <header class="container" id="header">
+    <header class="container mx-auto" id="header">
       <nav class="grid grid-cols-2 md:grid-cols-2 justify-between">
         <div class="">
           <img src="./assets/logo.png" alt="" />
@@ -36,7 +36,9 @@
     </header>
     <main>
       <!-- banner section -->
-      <section class="banner container grid col-end-1 sm:grid-cols-2 items-end">
+      <section
+        class="banner container mx-auto grid col-end-1 sm:grid-cols-2 items-end"
+      >
         <div class="">
           <h1 class="font-bold text-[65px] leading-none">
             ALWAYS
@@ -57,7 +59,7 @@
         </div>
       </section>
       <!-- plants sections -->
-      <section class="container">
+      <section class="container mx-auto">
         <div class="text-center mt-[120px]">
           <h1 class="font-bold text-[50px] mb-[15px]">
             <span class="text-[#E95A08]">Our </span>Plants
@@ -105,18 +107,6 @@
             />
             <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
             <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
-            <button class="bg-[#E95A08] text-white py-4 px-20">
-              ADD TO CART
-            </button>
-          </div>
-          <div class="text-center w-fit shadow">
-            <img
-              class="max-w-[100%] mb-3"
-              src="./assets/sample-flower-image.png"
-              alt=""
-            />
-            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
-            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
             <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
               ADD TO CART
             </button>
@@ -169,6 +159,58 @@
               ADD TO CART
             </button>
           </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Plants Lover Section -->
+      <section
+        class="container mx-auto grid sm:grid-cols-2 my-[130px] list-disc"
+      >
+        <div class="">
+          <img
+            class="max-w-[500px] max-h-[600px]"
+            src="./assets/flower-store.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <h1 class="font-bold text-[50px]">
+            Flower & Plants <br />
+            Lover
+          </h1>
+          <ul class="list-disc text-[22px]">
+            <li class="">
+              Indulge your senses with the beauty and <br />
+              fragrance of our fresh flower shop. From classic <br />
+              roses to exotic blooms, we offer a wide variety <br />
+              of fresh.
+            </li>
+
+            <li>
+              Indulge your senses with the beauty and <br />
+              fragrance of our fresh flower shop. From classic <br />
+              roses to exotic blooms, we offer a wide variety <br />
+              of fresh.
+            </li>
+
+            <li>
+              Indulge your senses with the beauty and <br />
+              fragrance of our fresh flower shop. From classic <br />
+              roses to exotic blooms, we offer a wide variety <br />
+              of fresh.
+            </li>
+          </ul>
         </div>
       </section>
     </main>

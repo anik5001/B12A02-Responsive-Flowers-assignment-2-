@@ -8,7 +8,6 @@
 
 .container {
   max-width: 1140px;
-  margin: 0 auto;
 }
 
 #header {
@@ -20,6 +19,9 @@
 }
 /*mobile responsive  */
 @media screen and (max-width: 576px) {
+  img {
+    width: 100%;
+  }
   .container {
     margin: 0 10px;
     max-width: 100%;
