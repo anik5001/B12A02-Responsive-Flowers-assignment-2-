@@ -15,10 +15,11 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/tailwind.init.css" />
   </head>
   <body class="noto-serif-font">
-    <header class="container">
+    <header class="container" id="header">
       <nav class="grid grid-cols-2 md:grid-cols-2 justify-between">
         <div class="">
           <img src="./assets/logo.png" alt="" />
@@ -35,8 +36,8 @@
     </header>
     <main>
       <!-- banner section -->
-      <section class="container grid sm:grid-cols-2 items-end h-[460px]">
-        <div class="grid">
+      <section class="banner container grid col-end-1 sm:grid-cols-2 items-end">
+        <div class="">
           <h1 class="font-bold text-[65px] leading-none">
             ALWAYS
             <span class="text-[#E95A08]"
@@ -52,7 +53,122 @@
           </p>
         </div>
         <div>
-          <img src="./assets/hero-flower.png" alt="" />
+          <img class="max-w-[100%]" src="./assets/hero-flower.png" alt="" />
+        </div>
+      </section>
+      <!-- plants sections -->
+      <section class="container">
+        <div class="text-center mt-[120px]">
+          <h1 class="font-bold text-[50px] mb-[15px]">
+            <span class="text-[#E95A08]">Our </span>Plants
+          </h1>
+          <p class="text-[22px] mb-[50px]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From <br />
+            classic roses to exotic blooms, we offer a wide variety of fresh.
+          </p>
+        </div>
+
+        <!-- card section -->
+        <div
+          class="grid gap-y-7 grid-cols-2 w-fit h-fit sm:grid-cols-4 gap-x-5"
+        >
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-20">
+              ADD TO CART
+            </button>
+          </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
+          <div class="text-center w-fit shadow">
+            <img
+              class="max-w-[100%] mb-3"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
+            <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
+            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+              ADD TO CART
+            </button>
+          </div>
         </div>
       </section>
     </main>
