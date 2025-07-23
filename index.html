@@ -17,13 +17,13 @@
 
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body>
+  <body class="noto-serif-font">
     <header class="container">
       <nav class="grid grid-cols-2 md:grid-cols-2 justify-between">
         <div class="">
           <img src="./assets/logo.png" alt="" />
         </div>
-        <ul class="grid sm:flex gap-[40px] justify-center items-center">
+        <ul class="grid sm:flex gap-[40px] justify-end items-center">
           <li class="hidden sm:list-item"><a href="">Home</a></li>
           <li class="hidden sm:list-item"><a href="">Shop</a></li>
           <li class="hidden sm:list-item"><a href="">About Us</a></li>
@@ -33,5 +33,28 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <!-- banner section -->
+      <section class="container grid sm:grid-cols-2 items-end h-[460px]">
+        <div class="grid">
+          <h1 class="font-bold text-[65px] leading-none">
+            ALWAYS
+            <span class="text-[#E95A08]"
+              >FRESH <br />
+              FLOWERS</span
+            >
+          </h1>
+          <p class="text-[22px] mt-[20px]">
+            Indulge your senses with the beauty and fragrance of <br />
+            our fresh flower shop. From classic roses to exotic <br />
+            blooms, we offer a wide variety of fresh flowers that <br />
+            are perfect for any occasion.
+          </p>
+        </div>
+        <div>
+          <img src="./assets/hero-flower.png" alt="" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>

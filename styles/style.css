@@ -1,3 +1,11 @@
+/* google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
