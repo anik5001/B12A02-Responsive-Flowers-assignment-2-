@@ -23,7 +23,12 @@
   margin-bottom: 50px;
 }
 .bloom-pic {
-  background-image: url("../assets/deal-bloom.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../assets/deal-bloom.png");
   color: white;
   width: 367px;
   height: 200px;
@@ -32,15 +37,25 @@
   border-radius: 15px;
 }
 .ana-pic {
-  background-image: url("../assets/deal-ana.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../assets/deal-ana.png");
   color: white;
-  max-width: 100%;
+  width: 367px;
   height: 200px;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 .zabo-pic {
-  background-image: url("../assets/deal-zabo.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../assets/deal-zabo.png");
   color: white;
   width: 75%;
   height: 425px;
@@ -67,5 +82,21 @@
 
   #plant-list {
     display: list-item;
+  }
+  .deal-section {
+    flex-direction: column;
+  }
+  .zabo-pic {
+    width: 367px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  .zabo-pic h1 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .zabo-pic button {
+    font-size: 18px;
   }
 }
