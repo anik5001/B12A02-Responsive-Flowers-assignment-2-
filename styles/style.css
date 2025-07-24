@@ -78,7 +78,8 @@
   * {
     margin: 0 auto;
   }
-  body section {
+  body,
+  section {
     margin-top: 20px;
   }
   img {
