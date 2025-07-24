@@ -75,6 +75,12 @@
 
 /*mobile responsive  */
 @media screen and (max-width: 576px) {
+  * {
+    margin: 0 auto;
+  }
+  body section {
+    margin-top: 20px;
+  }
   img {
     width: 100%;
   }
@@ -88,7 +94,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-
+  .plant-section {
+    margin-bottom: 40px;
+  }
   #plant-list {
     display: list-item;
   }
@@ -109,16 +117,28 @@
     font-size: 18px;
   }
   .join-section {
-    width: 100%;
+    width: 400px;
     height: 300px;
   }
   .join-section h1 {
     font-size: 20px;
+    margin-bottom: 20px;
   }
   .join-section input {
-    width: 220px;
+    width: 200px;
+    height: 40px;
   }
   .join-section button {
     width: 100px;
+    height: 40px;
+  }
+
+  /* footer section */
+  footer ul {
+    display: grid;
+    /* gap: 20px; */
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
   }
 }
