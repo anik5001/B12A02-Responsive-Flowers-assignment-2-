@@ -63,6 +63,16 @@
   margin-left: 28px;
   border-radius: 15px;
 }
+
+/* join section */
+.join-section {
+  background-image: url("../assets/news-letter-bg.png");
+  color: white;
+  max-width: 100%;
+  height: 530px;
+  background-repeat: no-repeat;
+}
+
 /*mobile responsive  */
 @media screen and (max-width: 576px) {
   img {
@@ -77,7 +87,6 @@
     flex-direction: column-reverse;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
   }
 
   #plant-list {
@@ -98,5 +107,18 @@
   }
   .zabo-pic button {
     font-size: 18px;
+  }
+  .join-section {
+    width: 100%;
+    height: 300px;
+  }
+  .join-section h1 {
+    font-size: 20px;
+  }
+  .join-section input {
+    width: 220px;
+  }
+  .join-section button {
+    width: 100px;
   }
 }
