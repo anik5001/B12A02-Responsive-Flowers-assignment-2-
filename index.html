@@ -83,7 +83,7 @@
             />
             <h1 class="font-medium text-[22px] text-[#111111]">Lily Blossom</h1>
             <p class="font-bold text-[22px] my-1 mb-6">20 USD</p>
-            <button class="bg-[#E95A08] text-white py-4 px-10 sm:px-20">
+            <button class="bg-[#E95A08] text-white px-10 py-4 sm:px-20">
               ADD TO CART
             </button>
           </div>
@@ -174,22 +174,23 @@
         </div>
       </section>
       <!-- Plants Lover Section -->
-      <section
-        class="container mx-auto grid sm:grid-cols-2 my-[130px] list-disc"
-      >
-        <div class="">
+      <section class="container mx-auto grid sm:grid-cols-2 my-[130px]">
+        <div class="relative">
           <img
             class="max-w-[500px] max-h-[600px]"
             src="./assets/flower-store.png"
             alt=""
           />
+          <div class="hidden sm:list-item absolute bottom-100 left-[300px]">
+            <img src="./assets/trusted-badge.png" alt="" />
+          </div>
         </div>
         <div>
           <h1 class="font-bold text-[50px]">
             Flower & Plants <br />
             Lover
           </h1>
-          <ul class="list-disc text-[22px]">
+          <ul class="text-[22px] pl-4 list-disc" id="plant-list">
             <li class="">
               Indulge your senses with the beauty and <br />
               fragrance of our fresh flower shop. From classic <br />
@@ -211,6 +212,43 @@
               of fresh.
             </li>
           </ul>
+        </div>
+      </section>
+
+      <!-- Latest Deal Section -->
+      <section class="container mx-auto">
+        <div class="text-center mb-[120px]">
+          <h1 class="font-bold text-[50px] mb-4">
+            <span class="text-[#E95A08]">Latest</span> Deals
+          </h1>
+          <p class="text-[22px]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From <br />
+            classic roses to exotic blooms, we offer a wide variety of fresh.
+          </p>
+        </div>
+        <div class="deal-section">
+          <div class="">
+            <div class="bloom-pic text-center grid items-center">
+              <div>
+                <h1 class="font-bold text-[22px]">60% Off | Bloom Plant</h1>
+                <button>Shop Now</button>
+              </div>
+            </div>
+            <div class="ana-pic text-center grid items-center">
+              <div>
+                <h1 class="font-bold text-[22px]">60% Off | Ana Plant</h1>
+                <button>Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="zabo-pic text-center grid items-center">
+            <div>
+              <h1 class="font-bold text-[22px]">60% Off | Zabo Plant</h1>
+              <button>Shop Now</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
